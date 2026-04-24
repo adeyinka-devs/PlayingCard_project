@@ -72,7 +72,7 @@ body {
   background-color: black;
   color: white;
 }
-@media (min-width: 641px) and (max-width: 1023px) {
+@media (min-width: 641px) and (max-width: 1023px) and (orientation: landscape) {
   #playing-cards {
   display: flex;
   flex-direction: row;
