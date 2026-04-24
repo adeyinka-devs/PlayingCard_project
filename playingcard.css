@@ -73,7 +73,7 @@ body {
   color: white;
 }
 
- @media (min-width: 641px) and (max-width: 1023px) {
+ @media (min-width: 641px) and (max-width: 1023px), (orientation: landscape) {
   #playing-cards {
   display: flex;
   flex-direction: row;
@@ -86,4 +86,19 @@ body {
   min-height: 100%;
   margin: 10px;
 }
+}
+
+@media (min-width: 1024px) {
+  #playing-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: aquamarine;
+  padding: 50px;
+  min-height: 100%;
+  margin: 10px;
+} 
 }
