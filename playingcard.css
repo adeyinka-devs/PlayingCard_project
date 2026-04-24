@@ -86,7 +86,7 @@ body {
   margin: 10px;
 } 
 }
- @media (min-width: 768px) {
+ @media (min-width: 768px), (min-width: 1024px) {
   #playing-cards {
   display: flex;
   flex-direction: row;
@@ -98,6 +98,6 @@ body {
   padding: 50px;
   min-height: 100%;
   margin: 10px;
-  }
+}
 }
   
